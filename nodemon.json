@@ -1,0 +1,11 @@
+{
+  "nodemonConfig": {
+    "restartable": "rs",
+    "ignore": ["node_modules/**/node_modules"],
+    "delay": "1000",
+    "env": {
+      "NODE_ENV": "development",
+      "NODE_CONFIG_DIR": "./src/config/.env"
+    }
+  }
+}
